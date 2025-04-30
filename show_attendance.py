@@ -60,18 +60,18 @@ def subjectchoose(text_to_speech):
     subject.title("Subject...")
     subject.geometry("580x320")
     subject.resizable(0, 0)
-    subject.configure(background="black")
+    subject.configure(background="#1e3d59")
     # subject_logo = Image.open("UI_Image/0004.png")
     # subject_logo = subject_logo.resize((50, 47), Image.ANTIALIAS)
     # subject_logo1 = ImageTk.PhotoImage(subject_logo)
-    titl = tk.Label(subject, bg="black", relief=RIDGE, bd=10, font=("arial", 30))
+    titl = tk.Label(subject, bg="#1e3d59", relief=RIDGE, bd=10, font=("arial", 30))
     titl.pack(fill=X)
     # l1 = tk.Label(subject, image=subject_logo1, bg="black",)
     # l1.place(x=100, y=10)
     titl = tk.Label(
         subject,
         text="Which Subject of Attendance?",
-        bg="black",
+        bg="#1e3d59",
         fg="green",
         font=("arial", 25),
     )
