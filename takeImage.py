@@ -66,3 +66,4 @@ def TakeImage(l1, l2, haarcasecade_path, trainimage_path, message, err_screen,te
         except FileExistsError as F:
             F = "Student Data already exists"
             text_to_speech(F)
+
